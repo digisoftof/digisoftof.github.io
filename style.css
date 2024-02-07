@@ -109,7 +109,7 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 /* Estilo para el contenedor del menú en dispositivos pequeños */
 @media (max-width: 768px) {
   .navbar-collapse {
-    background-color: #edfafd; /* Color de fondo del menú desplegable */
+    background-color: #ffffff; /* Color de fondo del menú desplegable */
   }
 
   .navbar-nav {
