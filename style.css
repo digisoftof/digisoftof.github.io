@@ -36,8 +36,8 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 }
 
 .proyecto-imagen {
-  width: 90%; /* Establece el ancho al 100% del contenedor */
-  height: 100%; /* Mantiene la proporción original de la imagen */
+  width: 90%; 
+  height: 100%; 
 }
 
 /* boton whatsapp flotante*/
@@ -54,6 +54,7 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   justify-content: center;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   text-decoration: none;
+  z-index: 1000;
 }
 
 .button-icon {
@@ -61,10 +62,12 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
   width: 40px;
   height: 40px;
 }
-
-/* Evitar subrayado en el enlace */
-.floating-button:hover {
-  text-decoration: none;
+/* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+  .floating-button {
+    bottom: 10px;
+    right: 10px;
+  }
 }
 /*Titulo DigiSoft */
 /* Estilo para Digi */
@@ -106,7 +109,7 @@ background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
 /* Estilo para el contenedor del menú en dispositivos pequeños */
 @media (max-width: 768px) {
   .navbar-collapse {
-    background-color: #333; /* Color de fondo del menú desplegable */
+    background-color: #edfafd; /* Color de fondo del menú desplegable */
   }
 
   .navbar-nav {
