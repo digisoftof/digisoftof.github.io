@@ -1,7 +1,8 @@
 /*mapa*/
 @media (max-width: 768px) {
   #map {
-    height: 100px; 
+    height: 100px;
+    width: 40%; 
   }
 }
 
