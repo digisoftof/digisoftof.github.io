@@ -1,14 +1,7 @@
 /*mapa*/
-/* Estilo predeterminado del mapa */
-#map {
-  width: 100%; 
-  height: 450px; 
-}
-
-
 @media (max-width: 768px) {
   #map {
-    height: 300px; 
+    height: 100px; 
   }
 }
 
